@@ -26,4 +26,7 @@
       <Filter>リソース ファイル</Filter>
     </ClInclude>
   </ItemGroup>
+  <ItemGroup>
+    <Text Include=".gitkkep.txt" />
+  </ItemGroup>
 </Project>
