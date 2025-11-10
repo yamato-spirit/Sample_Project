@@ -1,0 +1,5 @@
+1.srand() の呼び出し位置の修正
+getComputerHand() の中で毎回 srand(time(NULL)) を呼ぶと、1秒以内に連続であいこになった場合、time(NULL) が同じ値を返し、COMが同じ手を出し続けるバグが発生します。srand() はプログラム起動時に 1回だけ 呼ぶのが正しいため、main() 関数の先頭に移動しました。
+
+2.堅牢性の向上 (<code>getUserHand</code>)
+fgets が NULL を返した場合 (Ctrl+DでのEOF入力など)、break するのではなく return -1; でエラーを通知するように変更しました。main 側はそれを受け取って安全にプログラムを終了するように修正しています。

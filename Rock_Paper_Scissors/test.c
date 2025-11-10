@@ -1,5 +1,4 @@
 ﻿#include <stdio.h>
-#include <stdlib.h> // rand() と srand() のために必要
 #include <time.h>   // time() のために必要
 #include <string.h> // (今回は不要かもしれませんが、文字列操作の基本)
 #include <ctype.h>  // isspace() のため
@@ -24,7 +23,7 @@ int getUserHand(void) {
 		// 1.ユーザーが入力をせずにCtrl + Cなどで作業を中断した際に実行するif文
 		if (fgets(buffer, sizeof(buffer), stdin) == NULL) {
 			printf("入力に失敗しました\n");
-			break;
+			return -1; // エラーを通知
 		}
 		// 2.ユーザーからの入力を整数に変換
 		char *Endptr; /* Endptrに整数に変換できなかったアドレスを格納 ex)\nの\ */ 
@@ -52,7 +51,6 @@ int getUserHand(void) {
 	return user_num;
 }
 int getComputerHand(void) {
-	srand(time(NULL));	// 乱数生成器を現在の時刻で初期化
 	int com_num = rand() % 3;
 
 	return com_num;
