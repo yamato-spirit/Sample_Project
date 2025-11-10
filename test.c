@@ -62,7 +62,33 @@ int judge(int user, int com) {
 
 	return win_lose_num;
 }
-void displayResult(int win_lose_num) {
+void displayResult(int win_lose_num, int user, int com) {
+	char user_hand;
+	char com_hand;
+	
+	switch (user) {
+	case 0:
+		printf("あなたの出した手はグー vs ");
+		break;
+	case 1:
+		printf("あなたの出した手はチョキ vs ");
+		break;
+	case 2:
+		printf("あなたの出した手はパー vs ");
+		break;
+	}
+	switch (com) {
+	case 0:
+		printf("COMの出した手はグー\n");
+		break;
+	case 1:
+		printf("COMの出した手はチョキ\n");
+		break;
+	case 2:
+		printf("COMの出した手はパー\n");
+		break;
+	}
+
 	switch (win_lose_num) {
 	case 0:
 		printf("あいこです...もう一回チャレンジ！！\n");

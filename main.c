@@ -8,7 +8,7 @@ int main() {
         user_hand = getUserHand();
         com_hand = getComputerHand();
         int win_lose_num = judge(user_hand, com_hand);
-        displayResult(win_lose_num);
+        displayResult(win_lose_num,user_hand, com_hand);
         if (win_lose_num != 0) {
             break;
         }
