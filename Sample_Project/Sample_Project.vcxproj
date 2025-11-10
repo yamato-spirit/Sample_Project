@@ -26,7 +26,7 @@
     <ClInclude Include="..\Rock_Paper_Scissors\test.h" />
   </ItemGroup>
   <ItemGroup>
-    <Text Include="AI推敲文.txt" />
+    <Text Include="..\Rock_Paper_Scissors\AI推敲文.txt" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>17.0</VCProjectVersion>
