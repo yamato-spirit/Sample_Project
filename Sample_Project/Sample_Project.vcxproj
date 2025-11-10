@@ -24,6 +24,7 @@
     <ProjectGuid>{983a3d2b-0ff7-49ec-ace4-edcffc9c8063}</ProjectGuid>
     <RootNamespace>SampleProject</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
+    <ProjectName>Rock_Paper_Scissors</ProjectName>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
