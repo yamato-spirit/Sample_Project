@@ -23,10 +23,7 @@
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="..\test.h">
-      <Filter>リソース ファイル</Filter>
+      <Filter>ヘッダー ファイル</Filter>
     </ClInclude>
-  </ItemGroup>
-  <ItemGroup>
-    <Text Include=".gitkkep.txt" />
   </ItemGroup>
 </Project>
