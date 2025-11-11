@@ -7,6 +7,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Rock_Paper_Scissors", "Samp
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Tic_Tac_Toe", "Tic_Tac_Toe\Sample_Project2.vcxproj", "{0F916583-58F0-4FAE-B03D-0A05D203CF09}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "苦しんで覚えるC言語", "苦しんで覚えるC言語\苦しんで覚えるC言語.vcxproj", "{8B256367-B597-49A3-8C5C-0D658B89DAFD}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -31,6 +33,14 @@ Global
 		{0F916583-58F0-4FAE-B03D-0A05D203CF09}.Release|x64.Build.0 = Release|x64
 		{0F916583-58F0-4FAE-B03D-0A05D203CF09}.Release|x86.ActiveCfg = Release|Win32
 		{0F916583-58F0-4FAE-B03D-0A05D203CF09}.Release|x86.Build.0 = Release|Win32
+		{8B256367-B597-49A3-8C5C-0D658B89DAFD}.Debug|x64.ActiveCfg = Debug|x64
+		{8B256367-B597-49A3-8C5C-0D658B89DAFD}.Debug|x64.Build.0 = Debug|x64
+		{8B256367-B597-49A3-8C5C-0D658B89DAFD}.Debug|x86.ActiveCfg = Debug|Win32
+		{8B256367-B597-49A3-8C5C-0D658B89DAFD}.Debug|x86.Build.0 = Debug|Win32
+		{8B256367-B597-49A3-8C5C-0D658B89DAFD}.Release|x64.ActiveCfg = Release|x64
+		{8B256367-B597-49A3-8C5C-0D658B89DAFD}.Release|x64.Build.0 = Release|x64
+		{8B256367-B597-49A3-8C5C-0D658B89DAFD}.Release|x86.ActiveCfg = Release|Win32
+		{8B256367-B597-49A3-8C5C-0D658B89DAFD}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
