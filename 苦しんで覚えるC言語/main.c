@@ -1,12 +1,12 @@
 #include <stdio.h>
 
 int main(void) {
-	for (int i = 0; i < 9; i++) {
-		for (int j = 0; j < 9; j++) {
-			printf("%d×%d = %2d    ", j + 1, i + 1, (i + 1) * (j + 1));
-		}
-		printf("\n");
-	}
+	int tensu;
+	do {
+		printf("1～100までの点数を入力してください\n");
+		scanf_s("%d", &tensu);
+	} while (tensu < 0 || 100 < tensu);
+	printf("テスト結果は%d点です\n", tensu);
 	
 	return 0;
 }
